@@ -1,0 +1,753 @@
+{
+  "communities": {
+    "0": [
+      "authstate",
+      "core_theme_controller_dart",
+      "employees_employees_page_dart",
+      "features_admin_admin_home_page_dart",
+      "features_auth_complete_signup_page_dart",
+      "features_auth_inactive_account_page_dart",
+      "features_auth_login_page_dart",
+      "lib_core_app_form_scaffold_appformscaffold",
+      "lib_core_theme_controller",
+      "lib_core_theme_controller_load",
+      "lib_core_theme_controller_setthememode",
+      "lib_core_theme_controller_themecontroller",
+      "lib_core_theme_controller_thememodeprefkey",
+      "lib_features_admin_admin_home_page",
+      "lib_features_admin_admin_home_page_adminhomepage",
+      "lib_features_admin_settings_page",
+      "lib_features_admin_settings_page_build",
+      "lib_features_admin_settings_page_settingspage",
+      "lib_features_auth_inactive_account_page",
+      "lib_features_auth_inactive_account_page_build",
+      "lib_features_auth_inactive_account_page_inactiveaccountpage",
+      "lib_features_employees_weekly_schedule_editor_weeklyscheduleeditor",
+      "lib_features_shifts_shifts_grid_page_windowheader",
+      "lib_main",
+      "lib_main_authgate",
+      "lib_main_authgatestate",
+      "lib_main_build",
+      "lib_main_createstate",
+      "lib_main_employeestatus",
+      "lib_main_initialize",
+      "lib_main_load",
+      "lib_main_main",
+      "lib_main_marcatempoapp",
+      "lib_main_onsignupcompleted",
+      "package_flutter_dotenv_flutter_dotenv_dart",
+      "package_flutter_material_dart",
+      "package_shared_preferences_shared_preferences_dart",
+      "package_timezone_data_latest_dart",
+      "settings_page_dart",
+      "shifts_shifts_grid_page_dart",
+      "shifts_shifts_settings_page_dart",
+      "signup_code_page_dart",
+      "statelesswidget",
+      "thememode",
+      "valuenotifier"
+    ],
+    "1": [
+      "supabase_migrations_20260822154700_create_clients_table",
+      "supabase_migrations_20260822154700_create_clients_table_clients",
+      "supabase_migrations_20260822160302_create_employees_table",
+      "supabase_migrations_20260822160302_create_employees_table_employees",
+      "supabase_migrations_20260822160302_create_employees_table_sql_auth",
+      "supabase_migrations_20260822160302_create_employees_table_sql_auth_users",
+      "supabase_migrations_20260822162635_create_shifts_table",
+      "supabase_migrations_20260822162635_create_shifts_table_shifts",
+      "supabase_migrations_20260822163115_create_absences_table",
+      "supabase_migrations_20260822163115_create_absences_table_absences",
+      "supabase_migrations_20260822163436_timeclock_events_table",
+      "supabase_migrations_20260822163436_timeclock_events_table_timeclock_events",
+      "supabase_migrations_20260822163610_create_sync_log_table",
+      "supabase_migrations_20260822163610_create_sync_log_table_sync_log",
+      "supabase_migrations_20260823143202_rls_role_separation",
+      "supabase_migrations_20260823143202_rls_role_separation_public_current_employee_role",
+      "supabase_migrations_20260823143300_current_employee_client_id_function",
+      "supabase_migrations_20260823143300_current_employee_client_id_function_public_current_employee_client_id",
+      "supabase_migrations_20260823170000_create_timeclock_anomalies_table",
+      "supabase_migrations_20260823170000_create_timeclock_anomalies_table_timeclock_anomalies",
+      "supabase_migrations_20260823170100_create_absences_anomalies_table",
+      "supabase_migrations_20260823170100_create_absences_anomalies_table_absences_anomalies",
+      "supabase_migrations_20260824100100_create_weekly_schedule_templates_table",
+      "supabase_migrations_20260824100100_create_weekly_schedule_templates_table_weekly_schedule_templates",
+      "supabase_migrations_20260825091000_absences_grid_view",
+      "supabase_migrations_20260825091000_absences_grid_view_absences_grid",
+      "supabase_migrations_20260828100100_resolve_signup_code_function",
+      "supabase_migrations_20260828100100_resolve_signup_code_function_public_resolve_signup_code",
+      "supabase_migrations_20260911100100_inactive_employees_lose_access",
+      "supabase_migrations_20260911100100_inactive_employees_lose_access_public_current_employee_client_id",
+      "supabase_migrations_20260911100100_inactive_employees_lose_access_public_current_employee_role",
+      "supabase_migrations_20260911100100_inactive_employees_lose_access_public_current_employee_status",
+      "supabase_migrations_20260912100000_rls_initplan_wrap",
+      "supabase_migrations_20260912100000_rls_initplan_wrap_absences_grid"
+    ],
+    "2": [
+      "clients_clients_repository_dart",
+      "consumerstate",
+      "consumerstatefulwidget",
+      "create_employee_page_dart",
+      "edit_employee_page_dart",
+      "employees_repository_dart",
+      "lib_features_admin_admin_home_page_build",
+      "lib_features_auth_login_page_build",
+      "lib_features_employees_create_employee_page",
+      "lib_features_employees_create_employee_page_build",
+      "lib_features_employees_create_employee_page_createemployee",
+      "lib_features_employees_create_employee_page_createemployeepage",
+      "lib_features_employees_create_employee_page_createemployeepagestate",
+      "lib_features_employees_create_employee_page_createstate",
+      "lib_features_employees_create_employee_page_dispose",
+      "lib_features_employees_create_employee_page_emailcontroller",
+      "lib_features_employees_create_employee_page_firstnamecontroller",
+      "lib_features_employees_create_employee_page_formkey",
+      "lib_features_employees_create_employee_page_isloading",
+      "lib_features_employees_create_employee_page_lastnamecontroller",
+      "lib_features_employees_create_employee_page_obscurepassword",
+      "lib_features_employees_create_employee_page_passwordcontroller",
+      "lib_features_employees_employees_page",
+      "lib_features_employees_employees_page_build",
+      "lib_features_employees_employees_page_createstate",
+      "lib_features_employees_employees_page_employeespage",
+      "lib_features_employees_employees_page_employeespagestate",
+      "lib_features_employees_employees_page_setemployeeactive",
+      "lib_features_employees_employees_page_showinactive",
+      "lib_features_employees_employees_repository_employeesrepositoryprovider",
+      "lib_features_shifts_shifts_settings_page",
+      "lib_features_shifts_shifts_settings_page_build",
+      "lib_features_shifts_shifts_settings_page_createstate",
+      "lib_features_shifts_shifts_settings_page_dispose",
+      "lib_features_shifts_shifts_settings_page_formkey",
+      "lib_features_shifts_shifts_settings_page_initstate",
+      "lib_features_shifts_shifts_settings_page_isloaded",
+      "lib_features_shifts_shifts_settings_page_isloading",
+      "lib_features_shifts_shifts_settings_page_rangedayscontroller",
+      "lib_features_shifts_shifts_settings_page_save",
+      "lib_features_shifts_shifts_settings_page_shiftssettingspage",
+      "lib_features_shifts_shifts_settings_page_shiftssettingspagestate",
+      "materialpageroute"
+    ],
+    "3": [
+      "lib_features_employees_weekly_schedule_editor",
+      "lib_features_employees_weekly_schedule_editor_build",
+      "lib_features_employees_weekly_schedule_editor_builddayrow",
+      "lib_features_employees_weekly_schedule_editor_byday",
+      "lib_features_employees_weekly_schedule_editor_daynames",
+      "lib_features_employees_weekly_schedule_editor_dayofweek",
+      "lib_features_employees_weekly_schedule_editor_days",
+      "lib_features_employees_weekly_schedule_editor_daytemplate",
+      "lib_features_employees_weekly_schedule_editor_daytype",
+      "lib_features_employees_weekly_schedule_editor_daytypefromstring",
+      "lib_features_employees_weekly_schedule_editor_daytypetostring",
+      "lib_features_employees_weekly_schedule_editor_end1",
+      "lib_features_employees_weekly_schedule_editor_end2",
+      "lib_features_employees_weekly_schedule_editor_formattimefordb",
+      "lib_features_employees_weekly_schedule_editor_generate",
+      "lib_features_employees_weekly_schedule_editor_loadweeklyschedule",
+      "lib_features_employees_weekly_schedule_editor_null",
+      "lib_features_employees_weekly_schedule_editor_onchanged",
+      "lib_features_employees_weekly_schedule_editor_parsetime",
+      "lib_features_employees_weekly_schedule_editor_parts",
+      "lib_features_employees_weekly_schedule_editor_rows",
+      "lib_features_employees_weekly_schedule_editor_saveweeklyschedule",
+      "lib_features_employees_weekly_schedule_editor_start1",
+      "lib_features_employees_weekly_schedule_editor_start2",
+      "lib_features_employees_weekly_schedule_editor_timebutton",
+      "lib_features_employees_weekly_schedule_editor_timeminutes",
+      "lib_features_employees_weekly_schedule_editor_validateweeklyschedule",
+      "return",
+      "timeofday"
+    ],
+    "4": [
+      "lib_features_employees_edit_employee_page",
+      "lib_features_employees_edit_employee_page_build",
+      "lib_features_employees_edit_employee_page_createstate",
+      "lib_features_employees_edit_employee_page_daytemplates",
+      "lib_features_employees_edit_employee_page_defaultshifthourscontroller",
+      "lib_features_employees_edit_employee_page_dispose",
+      "lib_features_employees_edit_employee_page_editemployeepage",
+      "lib_features_employees_edit_employee_page_editemployeepagestate",
+      "lib_features_employees_edit_employee_page_employee",
+      "lib_features_employees_edit_employee_page_formkey",
+      "lib_features_employees_edit_employee_page_hasfixedweeklyschedule",
+      "lib_features_employees_edit_employee_page_initstate",
+      "lib_features_employees_edit_employee_page_isloading",
+      "lib_features_employees_edit_employee_page_loadtemplates",
+      "lib_features_employees_edit_employee_page_parsehours",
+      "lib_features_employees_edit_employee_page_save",
+      "lib_features_employees_edit_employee_page_senior",
+      "lib_features_employees_edit_employee_page_templatesloading",
+      "lib_features_employees_edit_employee_page_validatedefaultshifthours",
+      "lib_features_employees_edit_employee_page_validateweeklycontractedhours",
+      "lib_features_employees_edit_employee_page_weeklycontractedhourscontroller",
+      "map",
+      "texteditingcontroller",
+      "weekly_schedule_editor_dart"
+    ],
+    "5": [
+      "core_app_form_scaffold_dart",
+      "formstate",
+      "lib_features_auth_login_page",
+      "lib_features_auth_login_page_createstate",
+      "lib_features_auth_login_page_dispose",
+      "lib_features_auth_login_page_emailcontroller",
+      "lib_features_auth_login_page_formkey",
+      "lib_features_auth_login_page_isloading",
+      "lib_features_auth_login_page_obscurepassword",
+      "lib_features_auth_login_page_passwordcontroller",
+      "lib_features_auth_login_page_signin",
+      "lib_features_auth_self_signup_page",
+      "lib_features_auth_self_signup_page_build",
+      "lib_features_auth_self_signup_page_createstate",
+      "lib_features_auth_self_signup_page_dispose",
+      "lib_features_auth_self_signup_page_emailcontroller",
+      "lib_features_auth_self_signup_page_formkey",
+      "lib_features_auth_self_signup_page_isloading",
+      "lib_features_auth_self_signup_page_obscurepassword",
+      "lib_features_auth_self_signup_page_passwordcontroller",
+      "lib_features_auth_self_signup_page_selfsignuppage",
+      "lib_features_auth_self_signup_page_selfsignuppagestate",
+      "lib_features_auth_self_signup_page_signup",
+      "package_flutter_services_dart",
+      "self_signup_page_dart"
+    ],
+    "6": [
+      "any",
+      "bool",
+      "flutter",
+      "flutterappdelegate",
+      "flutterimplicitenginebridge",
+      "flutterimplicitenginedelegate",
+      "flutterscenedelegate",
+      "ios_runner_appdelegate",
+      "ios_runner_appdelegate_appdelegate",
+      "ios_runner_appdelegate_appdelegate_application",
+      "ios_runner_appdelegate_appdelegate_didinitializeimplicitflutterengine",
+      "ios_runner_scenedelegate",
+      "ios_runner_scenedelegate_scenedelegate",
+      "ios_runnertests_runnertests",
+      "ios_runnertests_runnertests_runnertests",
+      "ios_runnertests_runnertests_runnertests_testexample",
+      "uiapplication",
+      "uikit",
+      "xctest",
+      "xctestcase"
+    ],
+    "7": [
+      "lib_features_clients_clients_repository",
+      "lib_features_clients_clients_repository_client",
+      "lib_features_clients_clients_repository_clientsrepository",
+      "lib_features_clients_clients_repository_fetchown",
+      "lib_features_clients_clients_repository_setgridrangedays",
+      "lib_features_employees_employees_repository",
+      "lib_features_employees_employees_repository_client",
+      "lib_features_employees_employees_repository_create",
+      "lib_features_employees_employees_repository_employeesrepository",
+      "lib_features_employees_employees_repository_setactive",
+      "lib_features_employees_employees_repository_updaterole",
+      "lib_features_employees_employees_repository_watchall",
+      "lib_features_shifts_shifts_repository",
+      "lib_features_shifts_shifts_repository_client",
+      "lib_features_shifts_shifts_repository_fetchforrange",
+      "lib_features_shifts_shifts_repository_shiftsrepository",
+      "lib_features_shifts_shifts_repository_shiftsrepositoryprovider",
+      "package_flutter_riverpod_flutter_riverpod_dart",
+      "package_flutter_test_flutter_test_dart",
+      "package_marcatempo_main_dart",
+      "package_supabase_flutter_supabase_flutter_dart",
+      "supabaseclient_get",
+      "test_widget_test",
+      "test_widget_test_main"
+    ],
+    "8": [
+      "crossaxisalignment",
+      "globalkey",
+      "lib_core_app_form_scaffold",
+      "lib_core_app_form_scaffold_build",
+      "lib_core_app_form_scaffold_children",
+      "lib_core_app_form_scaffold_crossaxisalignment",
+      "lib_core_app_form_scaffold_formkey",
+      "lib_core_app_form_scaffold_isloading",
+      "lib_core_app_form_scaffold_onsubmit",
+      "lib_core_app_form_scaffold_scrollable",
+      "lib_core_app_form_scaffold_submitlabel",
+      "lib_core_app_form_scaffold_trailing",
+      "lib_core_app_form_scaffold_useautofillgroup",
+      "voidcallback"
+    ],
+    "9": [
+      "future",
+      "lib_features_admin_signup_code_page",
+      "lib_features_admin_signup_code_page_build",
+      "lib_features_admin_signup_code_page_createstate",
+      "lib_features_admin_signup_code_page_fetchsignupcode",
+      "lib_features_admin_signup_code_page_initstate",
+      "lib_features_admin_signup_code_page_isregenerating",
+      "lib_features_admin_signup_code_page_regeneratecode",
+      "lib_features_admin_signup_code_page_signupcodefuture",
+      "lib_features_admin_signup_code_page_signupcodepage",
+      "lib_features_admin_signup_code_page_signupcodepagestate",
+      "lib_features_auth_complete_signup_page",
+      "lib_features_auth_complete_signup_page_build",
+      "lib_features_auth_complete_signup_page_completesignup",
+      "lib_features_auth_complete_signup_page_completesignuppage",
+      "lib_features_auth_complete_signup_page_completesignuppagestate",
+      "lib_features_auth_complete_signup_page_createstate",
+      "lib_features_auth_complete_signup_page_dispose",
+      "lib_features_auth_complete_signup_page_firstnamecontroller",
+      "lib_features_auth_complete_signup_page_formkey",
+      "lib_features_auth_complete_signup_page_isblocked",
+      "lib_features_auth_complete_signup_page_isloading",
+      "lib_features_auth_complete_signup_page_lastnamecontroller",
+      "lib_features_auth_complete_signup_page_oncompleted",
+      "lib_features_auth_complete_signup_page_signupcodecontroller",
+      "lib_features_auth_login_page_loginpage",
+      "lib_features_auth_login_page_loginpagestate",
+      "package_share_plus_share_plus_dart",
+      "state",
+      "statefulwidget"
+    ],
+    "10": [
+      "asyncnotifier",
+      "consumerwidget",
+      "datetime",
+      "datetime_get",
+      "employees_employees_repository_dart",
+      "lib_features_clients_clients_repository_clientsrepositoryprovider",
+      "lib_features_shifts_shift_time_utils",
+      "lib_features_shifts_shift_time_utils_adddaysrome",
+      "lib_features_shifts_shift_time_utils_europerome",
+      "lib_features_shifts_shift_time_utils_now",
+      "lib_features_shifts_shift_time_utils_rome",
+      "lib_features_shifts_shift_time_utils_startoftodayrome",
+      "lib_features_shifts_shifts_grid_page",
+      "lib_features_shifts_shifts_grid_page_build",
+      "lib_features_shifts_shifts_grid_page_formatday",
+      "lib_features_shifts_shifts_grid_page_formattime",
+      "lib_features_shifts_shifts_grid_page_grid",
+      "lib_features_shifts_shifts_grid_page_notifier",
+      "lib_features_shifts_shifts_grid_page_shiftsgridpage",
+      "lib_features_shifts_shifts_grid_page_shiftson",
+      "lib_features_shifts_shifts_grid_page_state",
+      "lib_features_shifts_shifts_notifier",
+      "lib_features_shifts_shifts_notifier_build",
+      "lib_features_shifts_shifts_notifier_nextwindow",
+      "lib_features_shifts_shifts_notifier_offsetdays",
+      "lib_features_shifts_shifts_notifier_previouswindow",
+      "lib_features_shifts_shifts_notifier_rangedays",
+      "lib_features_shifts_shifts_notifier_shifts",
+      "lib_features_shifts_shifts_notifier_shiftsgridnotifier",
+      "lib_features_shifts_shifts_notifier_shiftsgridnotifierprovider",
+      "lib_features_shifts_shifts_notifier_shiftsgridstate",
+      "lib_features_shifts_shifts_notifier_windowend",
+      "lib_features_shifts_shifts_notifier_windowstart",
+      "lib_features_shifts_shifts_settings_page_loadcurrentvalue",
+      "list",
+      "location",
+      "package_timezone_timezone_dart",
+      "shift_time_utils_dart",
+      "shifts_notifier_dart",
+      "shifts_repository_dart"
+    ],
+    "11": [
+      "public_enforce_immutability",
+      "supabase_migrations_20260823170600_immutability_trigger",
+      "supabase_migrations_20260823170600_immutability_trigger_absences_anomalies_immutable",
+      "supabase_migrations_20260823170600_immutability_trigger_absences_immutable",
+      "supabase_migrations_20260823170600_immutability_trigger_public_enforce_immutability",
+      "supabase_migrations_20260823170600_immutability_trigger_timeclock_anomalies_immutable",
+      "supabase_migrations_20260823170600_immutability_trigger_timeclock_events_immutable"
+    ],
+    "12": [
+      "public_set_client_signup_code",
+      "supabase_migrations_20260828100000_clients_signup_code_generation",
+      "supabase_migrations_20260828100000_clients_signup_code_generation_clients_set_signup_code",
+      "supabase_migrations_20260828100000_clients_signup_code_generation_public_generate_signup_code",
+      "supabase_migrations_20260828100000_clients_signup_code_generation_public_set_client_signup_code"
+    ],
+    "13": [
+      "supabase_migrations_20260829090000_signup_code_attempts_table",
+      "supabase_migrations_20260829090000_signup_code_attempts_table_signup_code_attempts",
+      "supabase_migrations_20260829090000_signup_code_attempts_table_sql_auth",
+      "supabase_migrations_20260829090000_signup_code_attempts_table_sql_auth_users"
+    ],
+    "14": [
+      "android_app_src_main_kotlin_com_example_u_marcatempo_mainactivity",
+      "android_app_src_main_kotlin_com_example_u_marcatempo_mainactivity_mainactivity",
+      "flutteractivity"
+    ],
+    "15": [
+      "ios_runner_assets_xcassets_launchimage_imageset_readme",
+      "ios_runner_assets_xcassets_launchimage_imageset_readme_launch_screen_assets"
+    ],
+    "16": [
+      "supabase_functions_create_employee_index",
+      "supabase_functions_create_employee_index_adminclient"
+    ],
+    "17": [
+      "supabase_functions_delete_employee_index",
+      "supabase_functions_delete_employee_index_adminclient"
+    ],
+    "18": [
+      "supabase_functions_self_signup_index",
+      "supabase_functions_self_signup_index_adminclient"
+    ],
+    "19": [
+      "supabase_functions_set_employee_active_index",
+      "supabase_functions_set_employee_active_index_adminclient"
+    ],
+    "20": [
+      "supabase_migrations_20260830100000_create_contract_types_table",
+      "supabase_migrations_20260830100000_create_contract_types_table_contract_types"
+    ],
+    "21": [
+      "supabase_migrations_20260830100200_generate_employee_pin_function",
+      "supabase_migrations_20260830100200_generate_employee_pin_function_public_generate_employee_pin"
+    ],
+    "22": [
+      "supabase_migrations_20260916100000_clients_regenerate_signup_code",
+      "supabase_migrations_20260916100000_clients_regenerate_signup_code_public_regenerate_client_signup_code"
+    ],
+    "23": [
+      "android_app_build_gradle"
+    ],
+    "24": [
+      "android_build_gradle"
+    ],
+    "25": [
+      "android_settings_gradle"
+    ],
+    "26": [
+      "ios_runner_runner_bridging_header"
+    ],
+    "27": [
+      "repo::notes_extract::gosign_de_en_magazine_supabase_edge_functions_secure"
+    ],
+    "28": [
+      "repo::notes_extract::supabase_com_docs_guides_functions_unit_test"
+    ],
+    "29": [
+      "repo::notes_extract::supabase_com_docs_guides_troubleshooting_rls_performance_and_best_practices_z5jjwv"
+    ],
+    "30": [
+      "supabase_migrations_20260822154828_create_user_role_enum"
+    ],
+    "31": [
+      "supabase_migrations_20260823144500_enable_rls"
+    ],
+    "32": [
+      "supabase_migrations_20260823145858_employees_rls_policies"
+    ],
+    "33": [
+      "supabase_migrations_20260823153447_shifts_rls_policies"
+    ],
+    "34": [
+      "supabase_migrations_20260823153959_absences_rls_policies"
+    ],
+    "35": [
+      "supabase_migrations_20260823154456_timeclock_events_rls_policies"
+    ],
+    "36": [
+      "supabase_migrations_20260823154733_sync_log_rls_policies"
+    ],
+    "37": [
+      "repo::notes_extract::jethr_com_ristorazione_software_gestione_turni_ristorante"
+    ],
+    "38": [
+      "repo::notes_extract::nobadge_it_blog_migliori_app_rilevazione_presenze"
+    ],
+    "39": [
+      "repo::notes_extract::play_google_com_store_apps_details_id_it_appdev_turnapp_hl_it"
+    ],
+    "40": [
+      "supabase_migrations_20260823161933_grant_authenticated_privileges"
+    ],
+    "41": [
+      "supabase_migrations_20260823170200_enable_rls_anomalies_tables"
+    ],
+    "42": [
+      "supabase_migrations_20260823170300_timeclock_anomalies_rls_policies"
+    ],
+    "43": [
+      "supabase_migrations_20260823170400_absences_anomalies_rls_policies"
+    ],
+    "44": [
+      "supabase_migrations_20260823170500_grant_authenticated_privileges_anomalies"
+    ],
+    "45": [
+      "supabase_migrations_20260824100000_create_weekly_schedule_day_type_enum"
+    ],
+    "46": [
+      "supabase_migrations_20260824100200_weekly_schedule_templates_rls_policies"
+    ],
+    "47": [
+      "supabase_migrations_20260824100300_clients_rls_policies"
+    ],
+    "48": [
+      "supabase_migrations_20260828100050_clients_add_signup_code_column"
+    ],
+    "49": [
+      "supabase_migrations_20260829200000_signup_code_attempts_grant_service_role"
+    ],
+    "50": [
+      "supabase_migrations_20260830100100_employees_add_contract_type_id"
+    ],
+    "51": [
+      "supabase_migrations_20260902100000_enable_realtime_employees"
+    ],
+    "52": [
+      "supabase_migrations_20260903100000_clients_add_contract_type_id"
+    ],
+    "53": [
+      "supabase_migrations_20260903100100_employees_drop_contract_type_id"
+    ],
+    "54": [
+      "supabase_migrations_20260903100200_employees_add_default_shift_hours"
+    ],
+    "55": [
+      "supabase_migrations_20260911100000_employees_add_active"
+    ],
+    "56": [
+      "supabase_migrations_20260913100000_fk_indexes"
+    ],
+    "57": [
+      "supabase_migrations_20260917120000_enable_pgtap"
+    ],
+    "58": [
+      "supabase_seed"
+    ],
+    "59": [
+      "test_supabase_employees_inactive_denies_access_test"
+    ],
+    "60": [
+      "test_supabase_pgtap_setup_test"
+    ],
+    "61": [
+      "supabase_migrations_20260923100000_clients_add_grid_range_days",
+      "supabase_migrations_20260923100000_clients_add_grid_range_days_public_set_client_grid_range_days"
+    ],
+    "69": [
+      "repo::notes_extract::hyworkapp_com_strutture_ricettive_hotel_gestione_turni_e_timbrature"
+    ],
+    "70": [
+      "repo::notes_extract::flutterstudio_dev_blog_offline_first_flutter_drift_html"
+    ],
+    "76": [
+      "repo::notes_extract::supabase_com_docs_guides_database_testing"
+    ]
+  },
+  "cohesion": {
+    "0": 0.051515151515151514,
+    "1": 0.0766488413547237,
+    "2": 0.05647840531561462,
+    "3": 0.06896551724137931,
+    "4": 0.08695652173913043,
+    "5": 0.09,
+    "6": 0.11052631578947368,
+    "7": 0.10144927536231885,
+    "8": 0.14285714285714285,
+    "9": 0.07586206896551724,
+    "10": 0.05897435897435897,
+    "11": 0.42857142857142855,
+    "12": 0.4,
+    "13": 0.5,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "69": 1.0,
+    "70": 1.0,
+    "76": 1.0
+  },
+  "gods": [
+    {
+      "id": "supabase_migrations_20260822160302_create_employees_table_employees",
+      "label": "employees",
+      "degree": 15
+    },
+    {
+      "id": "supabase_migrations_20260822154700_create_clients_table_clients",
+      "label": "clients",
+      "degree": 10
+    },
+    {
+      "id": "lib_features_employees_employees_repository_employeesrepositoryprovider",
+      "label": "employeesRepositoryProvider",
+      "degree": 7
+    },
+    {
+      "id": "supabase_migrations_20260822163115_create_absences_table_absences",
+      "label": "absences",
+      "degree": 6
+    },
+    {
+      "id": "ios_runner_appdelegate_appdelegate",
+      "label": "AppDelegate",
+      "degree": 5
+    },
+    {
+      "id": "lib_features_clients_clients_repository_clientsrepositoryprovider",
+      "label": "clientsRepositoryProvider",
+      "degree": 5
+    },
+    {
+      "id": "lib_features_shifts_shifts_notifier_shiftsgridnotifier",
+      "label": "ShiftsGridNotifier",
+      "degree": 5
+    },
+    {
+      "id": "supabase_migrations_20260822163436_timeclock_events_table_timeclock_events",
+      "label": "timeclock_events",
+      "degree": 4
+    },
+    {
+      "id": "supabase_migrations_20260823170000_create_timeclock_anomalies_table_timeclock_anomalies",
+      "label": "timeclock_anomalies",
+      "degree": 4
+    },
+    {
+      "id": "supabase_migrations_20260823170100_create_absences_anomalies_table_absences_anomalies",
+      "label": "absences_anomalies",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "sync_log",
+      "target": "clients",
+      "source_files": [
+        "supabase/migrations/20260822163610_create_sync_log_table.sql",
+        "supabase/migrations/20260822154700_create_clients_table.sql"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `sync_log` unexpectedly reaches hub `clients`"
+    },
+    {
+      "source": "public.resolve_signup_code()",
+      "target": "clients",
+      "source_files": [
+        "supabase/migrations/20260828100100_resolve_signup_code_function.sql",
+        "supabase/migrations/20260822154700_create_clients_table.sql"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "reads_from",
+      "why": "peripheral node `public.resolve_signup_code()` unexpectedly reaches hub `clients`"
+    },
+    {
+      "source": "public.current_employee_role()",
+      "target": "employees",
+      "source_files": [
+        "supabase/migrations/20260823143202_rls_role_separation.sql",
+        "supabase/migrations/20260822160302_create_employees_table.sql"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "reads_from",
+      "why": "peripheral node `public.current_employee_role()` unexpectedly reaches hub `employees`"
+    },
+    {
+      "source": "public.current_employee_client_id()",
+      "target": "employees",
+      "source_files": [
+        "supabase/migrations/20260823143300_current_employee_client_id_function.sql",
+        "supabase/migrations/20260822160302_create_employees_table.sql"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "reads_from",
+      "why": "peripheral node `public.current_employee_client_id()` unexpectedly reaches hub `employees`"
+    },
+    {
+      "source": "public.current_employee_client_id()",
+      "target": "employees",
+      "source_files": [
+        "supabase/migrations/20260911100100_inactive_employees_lose_access.sql",
+        "supabase/migrations/20260822160302_create_employees_table.sql"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "reads_from",
+      "why": "peripheral node `public.current_employee_client_id()` unexpectedly reaches hub `employees`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `load`, `setThemeMode`, `_themeModePrefKey` to the rest of the system?",
+      "why": "158 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Auth and Theme State` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.051515151515151514 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Database Schema Tables` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.0766488413547237 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Employee Management UI` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.05647840531561462 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Weekly Schedule Editor` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Employee Editing UI` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Authentication Forms` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.09 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
